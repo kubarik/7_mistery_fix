@@ -20,6 +20,12 @@ get_roots(a, b, c)
 from math import sqrt
 ```
 
+Импортируемые модули
+```python
+import unittest #для автоматизации тестов
+from quadratic_equation import get_roots #собственный модуль определения корней
+```
+
 # Как запустить
 
 Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
